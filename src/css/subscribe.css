@@ -1,0 +1,141 @@
+.subscribe-section {
+  font-family: 'Montserrat';
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.subscribe-btn {
+  background-color: #fd9222;
+  border-radius: 100px;
+  border: none;
+  font-family: inherit;
+  font-weight: 600;
+  color: inherit;
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe-section {
+    background-image: url(../img/subscribe/subcribe-mobile.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .subscribe-section {
+      background-image: url(../img/subscribe/subcribe-mobile@2x.jpg);
+    }
+  }
+
+  .subscribe-container {
+    padding-top: 62px;
+    padding-bottom: 63px;
+  }
+
+  .subscribe-section-title {
+    width: 291px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+  }
+
+  .subscribe-section-descr {
+    max-width: 326px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+  }
+
+  .subscribe-btn {
+    padding: 12px 28px;
+    max-width: 128px;
+
+    background-color: #fd9222;
+    border-radius: 100px;
+    border: none;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    color: inherit;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-section {
+    background-image: url(../img/subscribe/subcribe-tablet.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .subscribe-section {
+      background-image: url(../img/subscribe/subcribe-tablet@2x.jpg);
+    }
+  }
+
+  .subscribe-container {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .subscribe-section-title {
+    width: 378px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+  }
+
+  .subscribe-section-descr {
+    max-width: 467px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+  }
+
+  .subscribe-btn {
+    padding: 14px 40px;
+    max-width: 172px;
+
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe-section {
+    background-image: url(../img/subscribe/subcribe-desktop.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .subscribe-section {
+      background-image: url(../img/subscribe/subcribe-desktop@2x.jpg);
+    }
+  }
+}
