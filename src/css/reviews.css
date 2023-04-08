@@ -86,7 +86,7 @@
     border-radius: 100px;
     display: block;
     margin: auto;
-    margin-bottom: 0;
+    margin-bottom: 72px;
   }
   .reviews-btn:hover {
     color: #ffffff;
@@ -112,6 +112,9 @@
     padding-right: 16px;
     padding-left: 16px;
   }
+  .reviews-btn {
+    margin-bottom: 100px;
+  }
 }
 
 /*-----desktop-----*/
@@ -129,5 +132,8 @@
     padding-top: 56px;
     padding-right: 24px;
     padding-left: 24px;
+  }
+  .reviews-btn {
+    margin-bottom: 128px;
   }
 }
