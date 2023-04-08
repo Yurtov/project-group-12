@@ -80,5 +80,11 @@
     /*     mobile       */
 
 @media screen and (min-width: 375px) {
-    
+    .components-title {
+        width: 283px;
+    }
+
+    .components-container {
+        width: 335px;
+    }
 }
