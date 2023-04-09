@@ -155,17 +155,8 @@ button {
   .about-sellers {
     width: 407px;
   }
-  .card-sellers-item {
-    flex-basis: calc((100% - 2 * 32px) / 3);
-  }
+
   .card-sellers-item:last-child {
     margin-right: 0;
-  }
-  .card-sellers {
-    gap: 0;
-  }
-  .sellers-content {
-    padding-left: 32px;
-    padding-right: 32px;
   }
 }
