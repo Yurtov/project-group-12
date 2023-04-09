@@ -188,3 +188,9 @@ border-radius: 100px;
     right: 16px;
     bottom: 16px;
 }
+@media screen and (min-width:767px) {
+    .modal{
+        width: 609px;
+    }
+
+}
