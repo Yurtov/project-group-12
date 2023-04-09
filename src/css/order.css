@@ -1,12 +1,20 @@
 *{
     box-sizing: border-box;
-    font-family: 'Montserrat';
+    
 }
-
+.list,
+.title,
+p {
+  list-style: none;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
 .backdrop{
     background-color: blueviolet;
 }
 .modal{
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     max-width:311px;
@@ -18,7 +26,26 @@ padding-top: 32px;
 padding-left: 24px;
 padding-bottom: 32px;
 }
+.modal-button{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    color: #000;
+   justify-content: center;
+    align-items: center;
+    border: none;
+    background: #FAFAFA;
+}
+    
+
+.modal-icon{
+    fill:currentColor;
+}   
 .modal-title{
+    font-family: 'Montserrat';
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -65,7 +92,8 @@ align-items: center;
 
 .item-button{
    
-    margin-left: 77px;
+    margin-left: auto;
+    margin-right: 0;
     padding: 6px 16px;
 gap: 14px;
 
@@ -83,9 +111,11 @@ border-radius: 100px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 32px;
+    margin-bottom: 0;
 }
 .form-field{
     margin-bottom: 18px;
+    position: relative;
 }
 .form-label{
     display: block;
@@ -120,6 +150,9 @@ letter-spacing: -0.02em;
 
 color: #000000;
 }
+.input{
+    margin-bottom: 14px;
+}
 ::placeholder {
     color: rgba(64, 64, 64, 0.3);
 }
@@ -149,4 +182,9 @@ height: 41px;
 border: none;
 background: #FD9222;
 border-radius: 100px;
+}
+.card{
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
 }
