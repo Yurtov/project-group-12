@@ -33,6 +33,9 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M24 8l-16 16"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M8 8l16 16"></path>
 </symbol>
+ <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="x-close-min">
+    <path d="M18 6 6 18M6 6l12 12" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
 <symbol id="icon-Coin" viewBox="0 0 32 32">
 <path fill="#fd9222" style="fill: var(--color1, #fd9222)" d="M16 2.667c-7.333 0-13.333 6-13.333 13.333s6 13.333 13.333 13.333c7.333 0 13.333-6 13.333-13.333s-6-13.333-13.333-13.333zM16 26.667c-5.867 0-10.667-4.8-10.667-10.667s4.8-10.667 10.667-10.667c5.867 0 10.667 4.8 10.667 10.667s-4.8 10.667-10.667 10.667z"></path>
 <path fill="#fd9222" style="fill: var(--color1, #fd9222)" d="M17.733 14.667h-3.467c-0.667 0-1.2-0.533-1.2-1.2s0.533-1.2 1.2-1.2h4.933c0.8 0 1.333-0.533 1.333-1.333s-0.533-1.333-1.333-1.333h-1.867v-1.2c0-0.8-0.533-1.333-1.333-1.333s-1.333 0.533-1.333 1.333v1.2h-0.4c-2.133 0-3.867 1.733-3.867 3.867s1.733 3.867 3.867 3.867h3.333c0.667 0 1.2 0.533 1.2 1.2s-0.533 1.2-1.2 1.2h-4.933c-0.8 0-1.333 0.533-1.333 1.333s0.533 1.333 1.333 1.333h2v1.2c0 0.8 0.533 1.333 1.333 1.333s1.333-0.533 1.333-1.333v-1.2h0.4c2.133 0 3.867-1.733 3.867-3.867s-1.733-3.867-3.867-3.867z"></path>
