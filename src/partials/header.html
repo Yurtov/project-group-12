@@ -1,13 +1,68 @@
 <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="header-container container">
+    <a href="../index.html" class="header-logo">
+      SIMPLY CHOCOLATE
+      <svg class="header-logo-icon">
+        <use href="./img/symbol-defs.svg#icon-chocolate-logo"></use>
+      </svg>
+    </a>
+    <button class="menu-icon-btn" onclick="openNav(x)">
+      <svg class="menu-icon">
+        <use href="../img/symbol-defs.svg#icon-menu"></use>
+      </svg>
+    </button>
+    <div class="menu" id="mySidenav">
+      <button type="button" class="menu-close-btn closebtn" onclick="closeNav(x)">
+        <svg class="menu-close-icon">
+          <use href="../img/symbol-defs.svg#icon-x"></use>
+        </svg>
+      </button>
+      <div class="menu-nav-social">
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-item">Home</li>
+            <li class="header-item">How it’s made?</li>
+            <li class="header-item">Our products</li>
+            <li class="header-item">Top sellers</li>
+            <li class="header-item">Chocolate is loved</li>
+          </ul>
+        </nav>
+        <ul class="header-social-list">
+          <li class="header-social-item">
+            <svg class="header-social-icon">
+              <use href="../img/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </li>
+          <li class="header-social-item">
+            <svg class="header-social-icon">
+              <use href="../img/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="menu-desktop">
+      <nav class="header-nav-desktop">
+        <ul class="header-list-desktop">
+          <li class="header-item-desktop">Home</li>
+          <li class="header-item-desktop">How it’s made?</li>
+          <li class="header-item-desktop">Our products</li>
+          <li class="header-item-desktop">Top sellers</li>
+          <li class="header-item-desktop">Chocolate is loved</li>
+        </ul>
+      </nav>
+      <ul class="header-social-list-desktop">
+        <li class="header-social-item-desktop">
+          <svg class="header-social-icon-desktop">
+            <use href="../img/symbol-defs.svg#icon-instagram"></use>
+          </svg>
+        </li>
+        <li class="header-social-item-desktop">
+          <svg class="header-social-icon-desktop">
+            <use href="../img/symbol-defs.svg#icon-twitter"></use>
+          </svg>
+        </li>
+      </ul>
+    </div>
+  </div>
 </header>
