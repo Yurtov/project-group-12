@@ -1,8 +1,6 @@
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -18,6 +16,8 @@
 
 .sellers-section {
   background-color: #fafafa;
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 
 .title-sellers {
@@ -49,7 +49,6 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 128px;
   padding-left: 32px;
   padding-right: 32px;
 }
@@ -109,7 +108,6 @@ button {
   .sellers-content {
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 72px;
   }
 
   .sellers-content-mobile {
@@ -130,6 +128,10 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .sellers-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .card-sellers-item:nth-child(4) {
     display: none;
   }
@@ -144,6 +146,10 @@ button {
 }
 
 @media screen and (min-width: 1200px) {
+  .sellers-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
   .card-sellers-item:nth-child(4) {
     display: flex;
   }
