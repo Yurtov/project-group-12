@@ -1,6 +1,14 @@
-.header {
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
-.header-container.container {
+
+.header {
+  position: sticky;
+  z-index: 999;
 }
 
 .header-logo {
@@ -16,6 +24,10 @@
   line-height: 1.29;
   letter-spacing: -0.03em;
   color: var(--black);
+}
+
+.header-logo span {
+  font-style: normal;
 }
 
 .header-logo-icon {
@@ -56,7 +68,6 @@
   transition: 0.5s; 
 }
 
-
 .menu-nav-social {
   height: 100%;
   display: flex;
@@ -65,8 +76,6 @@
 }
 
 .menu-close-btn {
-  /* width: 28px;
-	height: 28px; */
   color: var(--white);
   background-color: transparent;
   cursor: pointer;
@@ -123,8 +132,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header-container.container {
-    max-width: 704px;
+  .container {
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -140,10 +149,8 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .header-container.container {
+  .container {
     max-width: 1200px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 
   .header-container {
