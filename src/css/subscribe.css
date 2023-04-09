@@ -68,16 +68,16 @@
   color: var(--accent-color);
 }
 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
   }
-}
+} */
 
 @media screen and (min-width: 768px) {
-  .container {
+  /* .container {
     max-width: 768px;
-  }
+  } */
 
   .subscribe-section {
     padding-top: 72px;
@@ -117,9 +117,9 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
+  /* .container {
     max-width: 1200px;
-  }
+  } */
 
   .subscribe-section {
     background-image: url(../img/subscribe/subcribe-desktop.jpg);
