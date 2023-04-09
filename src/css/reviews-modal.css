@@ -7,7 +7,6 @@
   .reviews-backdrop {
   }
   .reviews-modal {
-    display: none;
     width: 263px;
     height: 471px;
     padding-top: 14px;
@@ -44,7 +43,6 @@
   }
   .reviews-modal-title {
     padding-top: 18px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -136,11 +134,105 @@
   .container {
     max-width: 704px;
   }
+  .reviews-modal {
+    width: 437px;
+    height: 631px;
+    padding: 40px;
+  }
+  .reviews-close-btn {
+    right: 24px;
+    top: 24px;
+    width: 28px;
+    height: 28px;
+  }
+  .reviews-form-close-icon {
+    width: 14px;
+    height: 14px;
+  }
+  .reviews-modal-title {
+    padding-top: 0;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    margin-bottom: 40px;
+  }
+  .reviews-form-label {
+    margin-bottom: 19px;
+  }
+  .reviews-form-input {
+    width: 389px;
+    height: 66px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .reviews-form-textarea {
+    width: 389px;
+    min-height: 137px;
+    padding: 22px 24px;
+  }
+  .reviews-form-textarea::placeholder {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+  .reviews-form-btn {
+    padding: 14px 40px;
+    width: 117px;
+    height: 45px;
+  }
 }
 /*-----desktop-----*/
 
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1136px;
+  }
+  .reviews-modal {
+    width: 437px;
+    height: 631px;
+    padding: 40px;
+  }
+  .reviews-close-btn {
+    right: 24px;
+    top: 24px;
+    width: 28px;
+    height: 28px;
+  }
+  .reviews-form-close-icon {
+    width: 14px;
+    height: 14px;
+  }
+  .reviews-modal-title {
+    padding-top: 0;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    margin-bottom: 40px;
+  }
+  .reviews-form-label {
+    margin-bottom: 19px;
+  }
+  .reviews-form-input {
+    width: 389px;
+    height: 66px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .reviews-form-textarea {
+    width: 389px;
+    min-height: 137px;
+    padding: 22px 24px;
+  }
+  .reviews-form-textarea::placeholder {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+  .reviews-form-btn {
+    padding: 14px 40px;
+    width: 117px;
+    height: 45px;
   }
 }
