@@ -46,21 +46,28 @@ body {
 }
 
 .container {
-  max-width: 335px;
+  /* width: 100%; */
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 16px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 704px;
+    width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1136px;
+    width: 1200px;
   }
 }
