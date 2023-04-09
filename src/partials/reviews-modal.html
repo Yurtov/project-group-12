@@ -13,15 +13,20 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <div class="reviews-backdrop is-hidden">
-    <div class="reviews-modal is-hidden">
-      <button type="button" class="reviews-close-btn">
+  <body>
+    <main>
+    <div class="modal reviews-modal" data-modal>
+        <svg class="reviews-form-close-icon" width="24" height="24">
+            <use href="../img/symbol-defs.svg#icon-x"></use>
+        </svg>
+    </button>
+      <button type="button" class="reviews-close-btn js-modal-close">
         <svg class="reviews-form-close-icon">
           <use href="../img/symbol-defs.svg#icon-x"></use>
         </svg>
       </button>
       <p class="reviews-modal-title">
-        leave a review about<br><span> our chocolate</span>
+        leave a review about<span> our chocolate</span>
       </p>
       <form action="#" class="reviews-modal-form form">
         <label class="reviews-form-label">
@@ -61,5 +66,6 @@
         <button type="submit" class="reviews-form-btn btn">Send</button>
       </form>
     </div>
-  </div>
+    </main>
+  </body>
 </html>
