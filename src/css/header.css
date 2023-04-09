@@ -6,9 +6,8 @@
   }
 }
 
+
 .header {
-  position: sticky;
-  z-index: 999;
 }
 
 .header-logo {
@@ -110,8 +109,11 @@
   flex-direction: column;
   gap: 24px;
 }
-.header-item {
+
+.header-link:is(:hover, :focus) {
+  color: var(--accent-color);
 }
+
 .header-social-list {
   display: flex;
   gap: 18px;
@@ -121,10 +123,15 @@
 .header-social-item {
   color: var(--white);
 }
+
 .header-social-icon {
   fill: currentColor;
   width: 22px;
   height: 22px;
+}
+
+.header-social-link:is(:hover, :focus) {
+  fill: var(--accent-color)
 }
 
 .menu-desktop {
@@ -213,12 +220,13 @@
   .header-social-item-desktop {
     padding-top: 28px;
     padding-bottom: 36px;
+    color: var(--black);
   }
 
   .header-social-icon-desktop {
     width: 24px;
     height: 24px;
-    background-color: transparent;
-    fill: var(--black);
+    fill: currentColor;
   }
+  
 }
