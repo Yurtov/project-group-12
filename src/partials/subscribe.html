@@ -1,0 +1,54 @@
+<section class="subscribe-section">
+    <div class="container subscribe-container">
+        <h2 class="subscribe-section-title">
+            EXPLORE OUR NEW CHOCOLATE FIRST
+        </h2>
+        <p class="subscribe-section-descr">
+            From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that will
+            leave you
+            craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is a
+            work of art
+            that is sure to please.
+        </p>
+        <button class="subscribe-btn js-open-modal" data-modal="3" type="button">Subscribe</button>
+    </div>
+</section>
+
+<div class="modal modal-subscribe" data-modal="3">
+
+    <picture class="modal-pic">
+        <source media="(min-width: 768px)"
+            srcset="../img/subscribe/popup-subcribe-desktop.jpg 1x, ../img/subscribe/popup-subcribe-desktop@2x.jpg 2x">
+
+        <source media="(max-width: 767px)"
+            srcset="../img/subscribe/popup-subcribe-mobile.jpg 1x, ../img/subscribe/popup-subcribe-mobile@2x.jpg 2x">
+
+        <img src="../img/subscribe/popup-subcribe-desktop.jpg" alt="Chocolate" width="538">
+    </picture>
+    <button type="button" class="close-btn js-modal-close">
+        <svg class="modal-cross" width="24" height="24">
+            <use href="../img/symbol-defs.svg#icon-x"></use>
+        </svg>
+    </button>
+
+    <div class="modal-content">
+        <h2 class="modal-title title">
+            Explore our <br><span class="title-accent">new chocolate</span> first!
+        </h2>
+
+        <div class="submit-field">
+            <form class="submit-form">
+
+                <input type="email" name="submit-email" id="submit-field" placeholder="Enter your email"
+                    class="submit-input" required>
+
+                <button type="submit" class="submit-btn">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+</div>
+<div class="overlay js-overlay-modal"></div>
