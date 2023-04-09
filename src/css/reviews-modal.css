@@ -7,6 +7,7 @@
   .reviews-backdrop {
   }
   .reviews-modal {
+    display: none;
     width: 263px;
     height: 471px;
     padding-top: 14px;
