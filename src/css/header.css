@@ -1,14 +1,4 @@
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
 .header {
-  position: sticky;
-  z-index: 999;
 }
 
 .header-logo {
@@ -110,8 +100,11 @@
   flex-direction: column;
   gap: 24px;
 }
-.header-item {
+
+.header-link:is(:hover, :focus) {
+  color: var(--accent-color);
 }
+
 .header-social-list {
   display: flex;
   gap: 18px;
@@ -121,10 +114,15 @@
 .header-social-item {
   color: var(--white);
 }
+
 .header-social-icon {
   fill: currentColor;
   width: 22px;
   height: 22px;
+}
+
+.header-social-link:is(:hover, :focus) {
+  fill: var(--accent-color)
 }
 
 .menu-desktop {
@@ -132,11 +130,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
 
   .header-logo {
     padding-top: 24px;
@@ -149,10 +142,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
-
+ 
   .header-container {
     display: flex;
     align-items: center;
@@ -213,12 +203,13 @@
   .header-social-item-desktop {
     padding-top: 28px;
     padding-bottom: 36px;
+    color: var(--black);
   }
 
   .header-social-icon-desktop {
     width: 24px;
     height: 24px;
-    background-color: transparent;
-    fill: var(--black);
+    fill: currentColor;
   }
+  
 }
