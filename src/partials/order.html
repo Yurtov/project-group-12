@@ -1,31 +1,33 @@
+<link rel="stylesheet" href="../css/order.css" />
+
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button type="button" class="modal-button" data-modal-close>
         <svg class="modal-icon" width="8" height="8">
-          <use href="./images/symbol.svg#icon-icon-Vector"></use>
+          <use href="../img/symbol-defs.svg#icon-x"></use>
         </svg>
       </button>
 
       <h2 class="modal-title">
         BUY <span>NOW</span> 
       </h2>
-<ul>
+<ul class="list">
     <li class="item">
         <img src="../img/order/order-1.jpg">
-        <button type="button">100 g</button>
+        <button type="button" class="item-button">100 g</button>
     </li>
     <li class="item">
         <img src="../img/order/order-2.jpg">
-    <button type="button">200 g</button>
+    <button type="button" class="item-button">200 g</button>
 </li>
     <li class="item">
         <img src="../img/order/order-3.jpg">
-    <button type="button">300 g</button>
+    <button type="button" class="item-button">300 g</button>
 </li>
 </ul>
 
       <form class="form">
-        
+        <div class="form-field">
           <label class="form-label" for="name">Personal information</label>
           <input
             class="form-input"
@@ -41,7 +43,7 @@
           id="name"
           placeholder="Surname"
         />
-        
+    </div>
         <div class="form-field">
           <label class="form-label" for="tel">Phone</label>
           <input class="form-input" type="tel" name="tel" id="tel" />
@@ -66,13 +68,13 @@
           </div>
           <div class="form-field">
             <label class="form-label" for="card">Card number</label>
-            <input class="form-input" type="number" name="card" id="tel" placeholder="Enter card" />
+            <input class="form-input" type="number" name="card" id="card" maxlength="5" minlength="2" placeholder="Enter card" />
             
           </div>
         <div class="form-field response">
           <label class="form-label" for="textarea">Comment</label>
           <textarea
-            class="textarea"
+            class="textarea  "
             name="textarea"
             rows="5"
             placeholder="Enter text"
@@ -81,7 +83,7 @@
         </div>
 
       
-        <button type="submit" class="button">submit</button>
+        <button type="submit" class="button">Submit</button>
       </form>
     </div>
   </div>
