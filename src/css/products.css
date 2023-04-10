@@ -3,7 +3,8 @@
 }
 
 .products-section {
-
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .swiper {
@@ -81,10 +82,20 @@
     .swiper {
         width: 704px;
     }
+
+    .products-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .swiper {
         width: 1136px;
+    }
+
+    .products-section {
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
 }
