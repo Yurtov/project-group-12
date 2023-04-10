@@ -35,14 +35,13 @@
   background-color: transparent;
   cursor: pointer;
   border: none;
-  color: var(--black);
   outline: none;
 }
 
 .menu-icon {
   width: 28px;
   height: 28px;
-  fill: currentColor;
+  stroke: var(--black);
 }
 
 .menu {
