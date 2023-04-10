@@ -1,7 +1,7 @@
 /*-----mobile-----*/
 
 .reviews-modal {
-  width: 263px;
+  width: 311px;
   height: 439px;
   padding-top: 14px;
   padding-right: 24px;
@@ -11,6 +11,7 @@
   background-color: var(--white);
   border-radius: 15px;
   overflow: hidden;
+  z-index: 30;
 }
 .reviews-close-btn {
   position: absolute;
@@ -19,8 +20,6 @@
   align-items: center;
   right: 14px;
   top: 14px;
-  width: 24px;
-  height: 24px;
   background-color: transparent;
   border: none;
 }
@@ -120,7 +119,6 @@
 
 @media screen and (min-width: 375px) {
   .container {
-    width: 375px;
   }
 }
 
@@ -138,8 +136,7 @@
   .reviews-close-btn {
     right: 24px;
     top: 24px;
-    width: 28px;
-    height: 28px;
+    padding: 0;
   }
   .reviews-form-close-icon {
     width: 28px;
@@ -187,21 +184,14 @@
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
   }
   .reviews-modal {
     height: 631px;
     padding: 40px;
   }
-  .reviews-close-btn {
-    right: 24px;
-    top: 24px;
+  .reviews-form-close-icon {
     width: 28px;
     height: 28px;
-  }
-  .reviews-form-close-icon {
-    width: 14px;
-    height: 14px;
   }
   .reviews-modal-title {
     padding-top: 0;
