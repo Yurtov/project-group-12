@@ -52,8 +52,7 @@ html {
 
 body {
   margin: 0;
-  padding-top: 62px;
-
+  
   background-color: var(--white);
   color: var(--black);
   font-family: 'Montserrat', sans-serif;
