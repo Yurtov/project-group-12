@@ -18,7 +18,7 @@ p {
     margin-left: auto;
     margin-right: auto;
    
-    background: #FAFAFA;
+    background: var(--white);
 border-radius: 15px;
 padding-right: 24px;
 padding-top: 32px;
@@ -32,7 +32,7 @@ padding-bottom: 32px;
     display: block;
     width: 24px;
     height: 24px;
-    color: #000;
+    color: var(--black);
    justify-content: center;
     align-items: center;
     border: none;
@@ -54,11 +54,11 @@ padding-bottom: 32px;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: -0.03em;
-color: #FD9222;
+color: var(--accent-color);
 margin-bottom: 32px;
 }
 .modal-title span{
-    color: #111111;
+    color: var(--black);
 }
 .list{
     padding: 0;
@@ -127,7 +127,7 @@ line-height: 1.17;
 /* identical to box height, or 117% */
 
 letter-spacing: -0.02em;
-color: #000000;
+color: var(--accent-color);
 margin-bottom: 8px;
 }
 .form-input{
@@ -149,7 +149,7 @@ line-height: 1.21;
 align-items: center;
 letter-spacing: -0.02em;
 
-color: #000000;
+color: var(--black);
 }
 .input{
     margin-bottom: 14px;
@@ -181,7 +181,7 @@ width: 109px;
 height: 41px;
 
 border: none;
-background: #FD9222;
+background: var(--accent-color);
 border-radius: 100px;
 }
 .card{
@@ -196,7 +196,7 @@ border-radius: 100px;
 
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .modal{
         max-width: 609px;
         padding: 48px;
