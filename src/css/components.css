@@ -4,7 +4,7 @@ body {
 
 .components-section {
     padding-top: 72px;
-    padding-bottom: 72px;
+    padding-bottom: 36px;
 }
 
 .components-container {
@@ -98,10 +98,7 @@ body {
 
 @media screen and (min-width: 375px) {
     
-    .components-container {
-        width: 335px;
-    }
-    
+      
     .components-title {
         width: 283px;
         margin-left: auto;
@@ -120,11 +117,10 @@ body {
 
     .components-section {
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 
     .components-container {
-        width: 704px;
         padding-left: 32px;
         padding-right: 32px;
     }
@@ -168,11 +164,7 @@ body {
 @media screen and (min-width: 1200px) {
     .components-section {
         padding-top: 128px;
-        padding-bottom: 128px;
-    }
-
-    .components-container {
-        width: 1136px;
+        padding-bottom: 64px;
     }
 
     .components-list {
