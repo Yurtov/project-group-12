@@ -1,9 +1,12 @@
+footer {
+  background-color: var(--primery-color);
+}
+
 .footer-addres {
   margin-bottom: 32px;
 }
 
 .container-footer {
-  background-color: var(--primery-color);
   padding: 32px 20px;
 }
 
@@ -13,7 +16,7 @@
   font-size: 24px;
   line-height: 1.16;
   margin-bottom: 32px;
-  max-width: 250px;
+  max-width: 300px;
 }
 .desc-footer {
   color: #fff;
@@ -100,7 +103,7 @@
 }
 @media screen and (min-width: 768px) {
   .container-footer {
-    min-width: 704;
+    min-width: 704px;
   }
   .icon-footer {
     height: 24px;
@@ -120,5 +123,12 @@
 
   .footer-list-nav li:last-child {
     margin-right: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-footer {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
