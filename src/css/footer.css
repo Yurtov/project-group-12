@@ -1,0 +1,124 @@
+.footer-addres {
+  margin-bottom: 32px;
+}
+
+.container-footer {
+  background-color: var(--primery-color);
+  padding: 32px 20px;
+}
+
+.title-footer {
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  margin-bottom: 32px;
+  max-width: 250px;
+}
+.desc-footer {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  margin-bottom: 14px;
+}
+.title-footer span {
+  color: var(--accent-color);
+}
+.footer-list-addres {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+}
+.footer-list-addres li:first-child {
+  margin-bottom: 8px;
+}
+.footer-list-addres li:hover,
+.footer-list-addres li:focus {
+  color: var(--accent-color);
+}
+
+.footer-list-nav {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.footer-list-nav li {
+  margin-bottom: 18px;
+}
+.footer-list-nav li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-nav::before {
+  content: '';
+  height: 1px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 32px;
+}
+
+.addres-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list-icon li {
+  display: inline;
+}
+.footer-list-icon li:first-child {
+  margin-right: 14px;
+}
+
+.footer-list-nav li:hover,
+.footer-list-nav li:focus {
+  color: var(--accent-color);
+}
+
+.icon-footer {
+  stroke: white;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+}
+.icon-footer:hover,
+.icon-footer:focus {
+  stroke: var(--accent-color);
+}
+@media screen and (max-width: 374px) {
+  .container-footer {
+    max-width: 374px;
+  }
+}
+@media screen and (min-width: 375px) {
+  .container-footer {
+    min-width: 335px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container-footer {
+    min-width: 704;
+  }
+  .icon-footer {
+    height: 24px;
+    width: 24px;
+  }
+  .first-footer-part {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-addres {
+    margin-right: 63px;
+  }
+  .footer-list-nav li {
+    display: inline;
+    margin-right: 24px;
+  }
+
+  .footer-list-nav li:last-child {
+    margin-right: 0;
+  }
+}
