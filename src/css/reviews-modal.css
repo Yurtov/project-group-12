@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 375px) {
   .container {
-    max-width: 335px;
+    width: 375px;
   }
   .reviews-modal {
     width: 263px;
@@ -123,7 +123,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    width: 768px;
   }
   .reviews-modal {
     width: 437px;
@@ -181,7 +181,7 @@
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1136px;
+    max-width: 1200px;
   }
   .reviews-modal {
     width: 437px;
