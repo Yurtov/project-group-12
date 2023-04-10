@@ -5,7 +5,7 @@
 }
 
 .hero {
-    background-image: url(./img/hero/hero-bg-chocolate-mobile@1x.jpg);
+    background-image: url(./img./hero/hero-bg-chocolate-mobile@1x.jpg);
     background-size: auto;
     height: 620px;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .hero {
-        background-image: url(./img/hero/hero-bg-chocolate-mobile@2x.jpg);
+        background-image: url(./img./hero/hero-bg-chocolate-mobile@2x.jpg);
     }
 }
 
@@ -179,7 +179,7 @@
 screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .hero {
-        background-image: url(./img/hero/hero-bg-chocolate-mobile@2x.jpg);
+        background-image: url(./img./hero/hero-bg-chocolate-mobile@2x.jpg);
 
     }
 }
@@ -190,7 +190,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     }
 
     .hero {
-        background-image: url(./img/hero/hero-bg-chocolate-tablet@1x.jpg);
+        background-image: url(./img./hero/hero-bg-chocolate-tablet@1x.jpg);
         height: 890px;
         margin-top: 24px;
         padding-top: 671px;
@@ -237,7 +237,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     }
 
     .hero {
-        background-image: url(./img/hero/hero-bg-chocolate-desktop@1x.jpg);
+        background-image: url(./img./hero/hero-bg-chocolate-desktop@1x.jpg);
         height: 600px;
         margin-top: 32px;
         padding-top: 381px;
@@ -258,6 +258,6 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 screen and (min-resolution: 192dpi) and (min-width: 1200px),
 screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .hero {
-        background-image: url(./img/hero/hero-bg-chocolate-desktop@2x.jpg);
+        background-image: url(./img./hero/hero-bg-chocolate-desktop@2x.jpg);
     }
 }
