@@ -36,11 +36,11 @@
 }
 .reviews-list {
   display: flex;
-  justify-content: center;
   flex-direction: row;
 }
 .reviews-item {
   width: 100%;
+  height: 100%;
 }
 .reviews-img {
   display: block;
@@ -79,7 +79,7 @@
   font-size: 14px;
   line-height: 1.21;
   text-align: center;
-  color: #111111;
+  color: var(--black);
   width: 165px;
   height: 41px;
   background-color: transparent;
@@ -87,8 +87,8 @@
   border: 1px solid var(--accent-color);
   border-radius: 100px;
   display: block;
-  margin: auto;
-  margin-top: 30px;
+  margin: 0 auto;
+  margin-top: 32px;
   margin-bottom: 72px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -96,6 +96,10 @@
 .reviews-btn:hover {
   color: var(--white);
   background-color: var(--accent-color);
+}
+.reviews-swiper-pagination {
+  position: static;
+  margin-top: 20px;
 }
 @media screen and (min-width: 375px) {
   .container {
@@ -121,7 +125,16 @@
     padding-left: 16px;
   }
   .reviews-btn {
+    font-size: 18px;
+    line-height: 1.22;
+    padding: 14px 40px;
+    width: 222px;
+    height: 50px;
+    margin-top: 50px;
     margin-bottom: 100px;
+  }
+  .reviews-swiper-pagination {
+    margin-top: 32px;
   }
 }
 
