@@ -154,12 +154,15 @@
   position: absolute;
   top: 15px;
   right: 14px;
-  fill: var(--white-text);
+  stroke: var(--white-text);
 }
+
 @media screen and (min-width: 768px) {
   .modal-cross {
     width: 28px;
     height: 28px;
+    top: 24px;
+    right: 24px;
   }
 }
 
