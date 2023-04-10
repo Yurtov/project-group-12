@@ -1,6 +1,3 @@
-.header {
-}
-
 .header-logo {
   padding-top: 20px;
   padding-bottom: 14px;
@@ -30,17 +27,18 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 27px;
+  right: 24px;
   background-color: transparent;
   cursor: pointer;
   border: none;
   outline: none;
+  padding: 0;
 }
 
 .menu-icon {
-  width: 28px;
-  height: 28px;
+  width: 21px;
+  height: 14px;
   stroke: var(--black);
 }
 
@@ -76,16 +74,18 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 28px;
+  right: 28px;
   cursor: pointer;
   outline: none;
 }
+
 .menu-close-icon {
-  fill: currentColor;
-  width: 28px;
-  height: 28px;
+  stroke: var(--white);
+  width: 12px;
+  height: 12px;
 }
+
 .header-nav {
   font-family: 'Montserrat';
   font-weight: 500;
@@ -114,17 +114,16 @@
   margin-bottom: 20px;
 }
 .header-social-item {
-  color: var(--white);
 }
 
 .header-social-icon {
-  fill: currentColor;
   width: 22px;
   height: 22px;
+  stroke: var(--white);
 }
 
-.header-social-link:is(:hover, :focus) {
-  fill: var(--accent-color);
+.header-social-icon:is(:hover, :focus) {
+  stroke: var(--accent-color);
 }
 
 .menu-desktop {
@@ -133,17 +132,22 @@
 
 @media screen and (min-width: 768px) {
   .header-logo {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 31px;
+    padding-bottom: 31px;
   }
 
   .menu {
     width: 290px;
   }
 
+  .menu-icon-btn {
+    top: 32px;
+    right: 36px;
+  }
+
   .menu-icon {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 16px;
   }
 
   .header-nav {
@@ -176,8 +180,9 @@
   }
 
   .header-logo {
+    padding-top: 26px;
+    padding-bottom: 34px;
     margin-right: auto;
-    padding-bottom: 32px;
     font-size: 18px;
     line-height: 20px;
   }
@@ -222,12 +227,17 @@
   .header-social-item-desktop {
     padding-top: 28px;
     padding-bottom: 36px;
-    color: var(--black);
+    /* color: var(--black); */
   }
 
   .header-social-icon-desktop {
     width: 24px;
     height: 24px;
-    fill: currentColor;
+    stroke: var(--black);
+    fill: transparent;
+  }
+
+  .header-social-icon-desktop:is(:hover, :focus) {
+    stroke: var(--accent-color);
   }
 }
