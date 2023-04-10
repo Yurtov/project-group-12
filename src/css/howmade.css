@@ -130,8 +130,10 @@
   }
   .howmade-container {
     flex-wrap: nowrap;
-    padding-top: 64px;
+  }
+  .howmmade-section {
     padding-bottom: 64px;
+    padding-top: 64px;
   }
   .howmade-list-item {
     margin-bottom: 24px;
