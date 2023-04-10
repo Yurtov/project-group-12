@@ -102,17 +102,13 @@
   margin-top: 20px;
 }
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 335px;
-  }
+  
 }
 
 /*-----tablet-----*/
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 704px;
-  }
+ 
   .reviews-list {
     justify-content: space-between;
   }
@@ -141,9 +137,7 @@
 /*-----desktop-----*/
 
 @media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1136px;
-  }
+  
   .reviews-item {
     flex-wrap: nowrap;
     width: calc((100% - 56px) / 3);

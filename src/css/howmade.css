@@ -72,9 +72,6 @@
   border: 1px solid #eceded;
 }
 @media screen and (min-width: 375px) {
-  .container {
-    width: 335px;
-  }
   .howmmade-section {
     padding-bottom: 36px;
     padding-top: 36px;
@@ -87,9 +84,7 @@
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 704px;
     padding: 100px 0;
-    margin: 0 auto;
   }
   .howmmade-section {
     padding-bottom: 50px;
@@ -121,11 +116,7 @@
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1136px;
     padding: 128px 0;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin: 0 auto;
     gap: 20px;
   }
   .howmade-container-list {
