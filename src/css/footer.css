@@ -1,14 +1,10 @@
 footer {
+  padding: 32px 0;
   background-color: var(--primery-color);
 }
 
 .footer-addres {
   margin-bottom: 32px;
-}
-
-.container-footer {
-  padding: 32px 20px;
-  margin: 0 auto;
 }
 
 .title-footer {
@@ -93,15 +89,7 @@ footer {
   stroke: var(--accent-color);
 }
 
-@media screen and (min-width: 375px) {
-  .container-footer {
-    max-width: 335px;
-  }
-}
 @media screen and (min-width: 768px) {
-  .container-footer {
-    max-width: 704px;
-  }
   .icon-footer {
     height: 24px;
     width: 24px;
@@ -120,10 +108,5 @@ footer {
 
   .footer-list-nav li:last-child {
     margin-right: 0;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container-footer {
-    max-width: 1200px;
   }
 }
