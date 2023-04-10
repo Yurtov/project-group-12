@@ -146,9 +146,9 @@
     text-align: center;
 }
 
-html {
+/*html {
     scroll-behavior: smooth;
-}
+}*/
 
 @media screen and (min-width: 376px) {
     .hero-text {
@@ -191,7 +191,8 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .hero {
         background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(/img/hero/hero-bg-chocolate-tablet@1x.jpg);
         height: 890px;
-        margin-top: 24px;
+        /*margin-top: 24px;*/
+        width: 704px;
         padding-top: 671px;
         margin-bottom: 50px;
         margin-left: 32px;
@@ -241,7 +242,8 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
         /*margin-top: 32px;*/
         padding-top: 381px;
         margin-bottom: 72px;
-        width: 1200px;
+        /*width: 1200px;*/
+        width: 1136px;
         margin-left: auto;
         margin-right: auto;
     }
