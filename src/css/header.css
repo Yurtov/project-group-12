@@ -1,14 +1,11 @@
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
 .header {
-  position: sticky;
-  z-index: 999;
+  position: fixed;
+  height: 62px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  z-index: 20;
 }
 
 .header-logo {
@@ -40,32 +37,35 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 27px;
+  right: 24px;
   background-color: transparent;
   cursor: pointer;
   border: none;
-  color: var(--black);
   outline: none;
+  padding: 0;
 }
 
 .menu-icon {
-  width: 28px;
-  height: 28px;
-  fill: currentColor;
+  width: 21px;
+  height: 14px;
+  stroke: var(--black);
 }
 
 .menu {
-  height: 100%; 
-  width: 0; 
-  position: fixed; 
-  z-index: 999; 
-  top: 0; 
+  height: 100vh;
+  width: 220px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
   right: 0;
-  background-color: var(--primery-color); 
-  overflow-x: hidden; 
-  padding-top: 60px; 
-  transition: 0.5s; 
+  background-color: var(--primery-color);
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu.is-open {
+  transform: translateX(0);
 }
 
 .menu-nav-social {
@@ -84,16 +84,18 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 28px;
+  right: 28px;
   cursor: pointer;
   outline: none;
 }
+
 .menu-close-icon {
-  fill: currentColor;
-  width: 28px;
-  height: 28px;
+  stroke: var(--white);
+  width: 12px;
+  height: 12px;
 }
+
 .header-nav {
   font-family: 'Montserrat';
   font-weight: 500;
@@ -110,8 +112,11 @@
   flex-direction: column;
   gap: 24px;
 }
-.header-item {
+
+.header-link:is(:hover, :focus) {
+  color: var(--accent-color);
 }
+
 .header-social-list {
   display: flex;
   gap: 18px;
@@ -119,12 +124,16 @@
   margin-bottom: 20px;
 }
 .header-social-item {
-  color: var(--white);
 }
+
 .header-social-icon {
-  fill: currentColor;
   width: 22px;
   height: 22px;
+  stroke: var(--white);
+}
+
+.header-social-icon:is(:hover, :focus) {
+  stroke: var(--accent-color);
 }
 
 .menu-desktop {
@@ -132,15 +141,37 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+  .header {
+    height: 80px;
   }
 
   .header-logo {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+  }
+
+  .menu {
+    width: 290px;
+  }
+
+  .menu-icon-btn {
+    top: 32px;
+    right: 36px;
+  }
+
+  .menu-icon {
+    width: 24px;
+    height: 16px;
+  }
+
+  .header-nav {
+    margin-top: 156px;
+    margin-left: 85px;
+  }
+
+  .header-social-list {
+    margin-left: 32px;
+    margin-bottom: 24px;
   }
 
   .menu-desktop {
@@ -149,10 +180,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
-
   .header-container {
     display: flex;
     align-items: center;
@@ -167,8 +194,9 @@
   }
 
   .header-logo {
+    padding-top: 26px;
+    padding-bottom: 34px;
     margin-right: auto;
-    padding-bottom: 32px;
     font-size: 18px;
     line-height: 20px;
   }
@@ -213,12 +241,17 @@
   .header-social-item-desktop {
     padding-top: 28px;
     padding-bottom: 36px;
+    /* color: var(--black); */
   }
 
   .header-social-icon-desktop {
     width: 24px;
     height: 24px;
-    background-color: transparent;
-    fill: var(--black);
+    stroke: var(--black);
+    fill: transparent;
+  }
+
+  .header-social-icon-desktop:is(:hover, :focus) {
+    stroke: var(--accent-color);
   }
 }
