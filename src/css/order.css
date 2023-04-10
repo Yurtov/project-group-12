@@ -11,6 +11,7 @@ p {
   margin: 0px;
 }
 .backdrop{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .modal{
     position: relative;
@@ -200,9 +201,7 @@ border-radius: 100px;
         max-width: 609px;
         padding: 48px;
     }
-    .form{
-        margin-bottom: 40px;
-    }
+    
     .list .item{
     
         display: flex;
@@ -228,6 +227,7 @@ border-radius: 100px;
     }
     .textarea{
         width: 513px;
+        
     }
 
 }
