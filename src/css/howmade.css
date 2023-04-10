@@ -1,5 +1,6 @@
-
 .howmmade-section {
+  padding-bottom: 36px;
+  padding-top: 36px;
 }
 .container {
   padding: 72px 0;
@@ -73,12 +74,20 @@
   .container {
     width: 335px;
   }
+  .howmmade-section {
+    padding-bottom: 36px;
+    padding-top: 36px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
     width: 704px;
     padding: 100px 0;
     margin: 0 auto;
+  }
+  .howmmade-section {
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
   .howmade-container-list {
     border-radius: 15px;
@@ -95,7 +104,7 @@
     max-width: 350px;
   }
   .howmade-list-item {
-    min-width: 436px;  
+    min-width: 436px;
   }
   .howmade-iframe {
     width: 100%;
@@ -117,6 +126,8 @@
   }
   .howmade-container {
     flex-wrap: nowrap;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
   .howmade-list-item {
     margin-bottom: 24px;

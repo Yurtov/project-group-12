@@ -1,3 +1,13 @@
+.header {
+  position: fixed;
+  height: 62px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  z-index: 1000;
+}
+
 .header-logo {
   padding-top: 20px;
   padding-bottom: 14px;
@@ -131,6 +141,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    height: 80px;
+  }
+
   .header-logo {
     padding-top: 31px;
     padding-bottom: 31px;
