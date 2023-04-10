@@ -25,7 +25,6 @@
   gap: 24px;
   flex-direction: column;
   align-items: center;
-  /* padding: 0; */
 }
 
 .subscribe-section-title {
@@ -68,21 +67,11 @@
   color: var(--accent-color);
 }
 
-/* @media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-  }
-} */
-
 @media screen and (min-width: 768px) {
-  /* .container {
-    max-width: 768px;
-  } */
-
   .subscribe-section {
     padding-top: 72px;
     padding-bottom: 72px;
-    background-image: url(../img/subscribe/subcribe-tablet.jpg);
+    background-image: url(/img/subscribe/subcribe-tablet.jpg);
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -90,7 +79,7 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .subscribe-section {
-      background-image: url(../img/subscribe/subcribe-tablet@2x.jpg);
+      background-image: url(/img/subscribe/subcribe-tablet@2x.jpg);
     }
   }
 
@@ -122,7 +111,7 @@
   } */
 
   .subscribe-section {
-    background-image: url(../img/subscribe/subcribe-desktop.jpg);
+    background-image: url(/img/subscribe/subcribe-desktop.jpg);
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -130,7 +119,7 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .subscribe-section {
-      background-image: url(../img/subscribe/subcribe-desktop@2x.jpg);
+      background-image: url(/img/subscribe/subcribe-desktop@2x.jpg);
     }
   }
 }
@@ -138,7 +127,6 @@
 
 .modal-subscribe {
   width: 311px;
-  /* min-height: 350px; */
   padding: 0;
   padding-bottom: 32px;
   overflow: hidden;
@@ -156,7 +144,7 @@
     width: 538px;
   }
 }
-/* Стили для кнопки закрытия */
+
 .close-btn {
   background-color: transparent;
   border: none;
@@ -185,7 +173,6 @@
 @media screen and (min-width: 768px) {
   .modal-content {
     padding: 0 40px;
-
     gap: 28px;
   }
 }
@@ -199,7 +186,6 @@
   letter-spacing: -0.03em;
   text-transform: uppercase;
   text-align: left;
-
   color: var(--black);
 }
 
@@ -243,7 +229,7 @@
   height: 45px;
   padding: 14px 28px;
   border-radius: 100px;
-  /* border-color: transparent; */
+
   background-color: var(--accent-color);
   color: var(--white-text);
   border: none;
@@ -251,6 +237,14 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit-btn:is(:hover, :focus) {
+  background-color: #fcf1e0;
+  color: var(--accent-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -258,7 +252,6 @@
     width: 313px;
     height: 52px;
     padding: 0 24px;
-    /* margin-right: 8px; */
   }
 
   .submit-input::placeholder {
