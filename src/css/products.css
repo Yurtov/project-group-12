@@ -3,7 +3,7 @@
 }
 
 .products-section {
-    padding-bottom: 72px;
+
 }
 
 .swiper {
@@ -14,7 +14,6 @@
 
 .swiper-wrapper {
     width: 270px;
-    /*gap: 18px;*/
 }
 
 .swiper-slide {
@@ -76,4 +75,16 @@
     font-size: 14px;
     line-height: 1.2;
     color: var(--black);
+}
+
+@media screen and (min-width: 768px) {
+    .swiper {
+        width: 704px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .swiper {
+        width: 1136px;
+    }
 }
