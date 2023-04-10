@@ -46,13 +46,13 @@
 }
 
 .menu {
-  height: 100vh; 
-  width: 220px; 
-  position: fixed; 
-  z-index: 999; 
-  top: 0; 
+  height: 100vh;
+  width: 220px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
   right: 0;
-  background-color: var(--primery-color); 
+  background-color: var(--primery-color);
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
@@ -125,7 +125,7 @@
 }
 
 .header-social-link:is(:hover, :focus) {
-  fill: var(--accent-color)
+  fill: var(--accent-color);
 }
 
 .menu-desktop {
@@ -133,7 +133,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .header-logo {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -143,7 +142,12 @@
     width: 290px;
   }
 
-   .header-nav {
+  .menu-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .header-nav {
     margin-top: 156px;
     margin-left: 85px;
   }
@@ -159,7 +163,6 @@
 }
 
 @media screen and (min-width: 1200px) {
- 
   .header-container {
     display: flex;
     align-items: center;
@@ -228,5 +231,4 @@
     height: 24px;
     fill: currentColor;
   }
-  
 }
