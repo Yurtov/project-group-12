@@ -8,6 +8,7 @@ footer {
 
 .container-footer {
   padding: 32px 20px;
+  margin: 0 auto;
 }
 
 .title-footer {
@@ -91,19 +92,15 @@ footer {
 .icon-footer:focus {
   stroke: var(--accent-color);
 }
-@media screen and (max-width: 374px) {
-  .container-footer {
-    max-width: 374px;
-  }
-}
+
 @media screen and (min-width: 375px) {
   .container-footer {
-    min-width: 335px;
+    max-width: 335px;
   }
 }
 @media screen and (min-width: 768px) {
   .container-footer {
-    min-width: 704px;
+    max-width: 704px;
   }
   .icon-footer {
     height: 24px;
@@ -128,7 +125,5 @@ footer {
 @media screen and (min-width: 1200px) {
   .container-footer {
     max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
   }
 }
