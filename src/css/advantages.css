@@ -64,10 +64,9 @@
 @media screen and (min-width: 1200px) {
     
   .advantages-list {
-    margin-left: 18px;
-    margin-right: 18px;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-around;
     gap: 70px;
   }
 
@@ -76,7 +75,7 @@
     position: relative;
   }
  
-  .advantages-item::after {
+  .advantages-border::after {
     content: '';
     position: absolute;
     right: -19%;
@@ -85,4 +84,4 @@
     border: 1px solid rgba(255, 255, 255, 0.5);
     transform: rotate(90deg);
   }
-}
+ }
