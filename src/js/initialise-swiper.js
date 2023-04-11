@@ -4,6 +4,12 @@ const swiper = new Swiper('.swiper', {
   loop: false,
   slidesPerView: 'auto',
   spaceBetween: 18,
+  preloadImages: false,
+
+  lazy: {
+    loadOnTransitionStart: false,
+    loadPrevNext: false,
+  },
   
 
   // If we need pagination
