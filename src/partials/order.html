@@ -1,0 +1,87 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/order.css" />
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="modal-button" data-modal-close>
+        <svg class="modal-icon" width="12" height="12">
+          <use href="../img/symbol-defs.svg#icon-icon-Vector"></use>
+        </svg>
+      </button>
+
+      <h2 class="title modal-title">
+        BUY <span>NOW</span> 
+      </h2>
+<ul class="list">
+    <li class="item">
+        <img src="../img/order/order-1.jpg">
+        <button type="button" class="item-button">100 g</button>
+    </li>
+    <li class="item">
+        <img src="../img/order/order-2.jpg">
+    <button type="button" class="item-button">200 g</button>
+</li>
+    <li class="item">
+        <img src="../img/order/order-3.jpg">
+    <button type="button" class="item-button">300 g</button>
+</li>
+</ul>
+
+      <form class="form">
+        <div class="form-field field">
+          <label class="form-label " for="name">Personal information</label>
+          <input
+            class="form-input input"
+            type="text"
+            name="uzername"
+            id="name"
+            placeholder="Name"
+          />
+          <input
+          class="form-input input"
+          type="text"
+          name="uzername"
+          id="name"
+          placeholder="Surname"
+        />
+    </div>
+    
+
+        <div class="form-field">
+          <label class="form-label" for="email">Email</label>
+          <input
+            class="form-input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+         
+        </div>
+        <div class="form-field">
+            <label class="form-label" for="tel">Phone number</label>
+            <input class="form-input" type="tel" name="tel" id="tel" placeholder="Phone number" />
+           
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="card">Card number</label>
+            <input class="form-input" type="number" name="card" id="card" min="3" max="5"  placeholder="Enter card" />
+            <img src="../img/order/mastercard.jpg" class="card">
+          </div>
+        <div class="form-field response">
+          <label class="form-label" for="textarea">Comment</label>
+          <textarea
+            class="textarea  "
+            name="textarea"
+            rows="5"
+            placeholder="Enter text"
+            id="textarea"
+          ></textarea>
+        </div>
+
+      
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </div>
+  </div>
+

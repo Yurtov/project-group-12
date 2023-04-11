@@ -26,6 +26,7 @@
 .howmade-iframe {
   width: 100%;
   height: 500px;
+  margin-bottom: 20px;
 }
 .howmade-container-list {
   background: #ffffff;
@@ -71,19 +72,19 @@
   border: 1px solid #eceded;
 }
 @media screen and (min-width: 375px) {
-  .container {
-    width: 335px;
-  }
   .howmmade-section {
     padding-bottom: 36px;
     padding-top: 36px;
   }
+  .howmade-iframe {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 704px;
     padding: 100px 0;
-    margin: 0 auto;
   }
   .howmmade-section {
     padding-bottom: 50px;
@@ -92,7 +93,7 @@
   .howmade-container-list {
     border-radius: 15px;
     padding: 32px 114px 32px 32px;
-    width: 620px;
+    min-width: 614px;
   }
   .howmade-title {
     font-size: 24px;
@@ -108,26 +109,27 @@
   }
   .howmade-iframe {
     width: 100%;
+
     height: 400px;
     margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1136px;
     padding: 128px 0;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin: 0 auto;
+    gap: 20px;
   }
   .howmade-container-list {
     padding: 32px;
-    width: 520px;
+    height: 400px;
+    min-width: 0;
   }
   .howmade-container {
     flex-wrap: nowrap;
-    padding-top: 64px;
+  }
+  .howmmade-section {
     padding-bottom: 64px;
+    padding-top: 64px;
   }
   .howmade-list-item {
     margin-bottom: 24px;
@@ -139,5 +141,6 @@
   .howmade-iframe {
     width: 600px;
     height: 400px;
+    margin-bottom: 0;
   }
 }
