@@ -83,6 +83,10 @@ body {
     padding-left: 32px;
     padding-right: 32px;
   }
+
+  body {
+    padding-top: 80px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
