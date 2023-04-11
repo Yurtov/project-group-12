@@ -121,7 +121,13 @@
   display: flex;
   gap: 18px;
 }
-.header-social-item {
+
+.header-social-link {
+  display: block;
+}
+
+.header-social-link:is(:hover, :focus) {
+  stroke: var(--accent-color);
 }
 
 .header-social-icon {
@@ -130,9 +136,9 @@
   stroke: var(--white);
 }
 
-.header-social-icon:is(:hover, :focus) {
+/* .header-social-icon:is(:hover, :focus) {
   stroke: var(--accent-color);
-}
+} */
 
 .menu-desktop {
   display: none;
@@ -252,7 +258,7 @@
     fill: transparent;
   }
 
-  .header-social-icon-desktop:is(:hover, :focus) {
+  /* .header-social-icon-desktop:is(:hover, :focus) {
     stroke: var(--accent-color);
-  }
+  } */
 }
