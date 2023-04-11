@@ -65,5 +65,9 @@
 <symbol id="icon-icon-Vector" viewBox="0 0 32 32">
  <path d="M32 3.223 28.777 0 16 12.777 3.223 0 0 3.223 12.777 16 0 28.777 3.223 32 16 19.223 28.777 32 32 28.777 19.223 16 32 3.223z"/>
 </symbol>
+<symbol id="icon-flagua" viewBox="0 0 43 32">
+<path fill="#ffd700" style="fill: var(--color1, #ffd700)" d="M42.443 0.523h-42.119v31.344h42.119v-31.344z"></path>
+<path fill="#0057b7" style="fill: var(--color2, #0057b7)" d="M0.324 0.523h42.119v15.673h-42.119v-15.673z"></path>
+</symbol>
 </defs>
 </svg>
