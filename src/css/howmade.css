@@ -21,12 +21,14 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: auto;
+
+  justify-content: center;
 }
 .howmade-iframe {
   width: 100%;
   height: 500px;
   margin-bottom: 20px;
+  border-radius: 15px;
 }
 .howmade-container-list {
   background: #ffffff;
@@ -108,7 +110,7 @@
     min-width: 436px;
   }
   .howmade-iframe {
-    width: 100%;
+    width: 614px;
 
     height: 400px;
     margin-bottom: 20px;
