@@ -17,8 +17,9 @@ p {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    overflow-y: scroll;
    
-    background: #FAFAFA;
+    background: var(--white);
 border-radius: 15px;
 padding-right: 24px;
 padding-top: 32px;
@@ -26,19 +27,27 @@ padding-left: 24px;
 padding-bottom: 32px;
 }
 .modal-button{
+    cursor: pointer;
     position: absolute;
     top: 14px;
     right: 14px;
     display: block;
     width: 24px;
     height: 24px;
-    color: #000;
+    color: var(--black);
    justify-content: center;
     align-items: center;
     border: none;
-    background: #FAFAFA;
+    background: var(--white);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-    
+   .modal-button:hover,
+   .modal-button:focus{
+    color: var(--accent-color);
+    background-color: #FCF1E0;
+}
+   
 
 .modal-icon{
     fill:currentColor;
@@ -54,11 +63,11 @@ padding-bottom: 32px;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: -0.03em;
-color: #FD9222;
+color: var(--accent-color);
 margin-bottom: 32px;
 }
 .modal-title span{
-    color: #111111;
+    color: var(--black);
 }
 .list{
     padding: 0;
@@ -70,7 +79,7 @@ margin-bottom: 32px;
     width: 100%;
     max-width: 513px;
 height: 85px;
-background: #FFFFFF;
+background: var(--white);
 border: 1px solid rgba(17, 17, 17, 0.1);
 border-radius: 15px;
 text-decoration: none;
@@ -91,7 +100,7 @@ align-items: center;
 }
 
 .item-button{
-   
+   cursor: pointer;
     margin-left: auto;
     margin-right: 0;
     padding: 6px 16px;
@@ -102,10 +111,18 @@ height: 29px;
 font-weight: 600;
 font-size: 14px;
 line-height: 1.21;
-background: #FAFAFA;
+background: var(--white);
 border: 1px solid rgba(17, 17, 17, 0.1);
 border-radius: 100px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+
+}
+.item-button:hover,
+.item-button:focus{
+    color: var(--accent-color);
+    background-color: #FCF1E0;
 }
 .form{
     display: flex;
@@ -127,7 +144,7 @@ line-height: 1.17;
 /* identical to box height, or 117% */
 
 letter-spacing: -0.02em;
-color: #000000;
+color: var(--accent-color);
 margin-bottom: 8px;
 }
 .form-input{
@@ -149,7 +166,7 @@ line-height: 1.21;
 align-items: center;
 letter-spacing: -0.02em;
 
-color: #000000;
+color: var(--black);
 }
 .input{
     margin-bottom: 14px;
@@ -170,19 +187,29 @@ font-size: 14px;
 line-height: 1.21;
 }
 .button{
+    cursor: pointer;
     padding: 12px 28px;
 gap: 14px;
 font-weight: 600;
 font-size: 14px;
 line-height: 1.21;
 
-color: #FFFFFF;
+color: var(--white-text);
 width: 109px;
 height: 41px;
 
 border: none;
-background: #FD9222;
+background: var(--accent-color);
 border-radius: 100px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+.button:hover,
+.button:focus{
+    color: var(--accent-color);
+    background-color: #FCF1E0;
 }
 .card{
     position: absolute;
@@ -196,7 +223,7 @@ border-radius: 100px;
 
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .modal{
         max-width: 609px;
         padding: 48px;
@@ -230,4 +257,8 @@ border-radius: 100px;
         
     }
 
+    .item-button{
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
