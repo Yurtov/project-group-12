@@ -1,9 +1,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="../css/order.css" />
 
-<div class="backdrop is-hidden js-overlay-modal" data-modal>
+<div class="backdrop is-hidden js-overlay-modal" >
     <div class="modal">
-      <button type="button" class="modal-button js-modal-close" data-modal-close>
+      <button type="button" class="modal-button js-modal-close" >
         <svg class="modal-icon" width="12" height="12">
           <use href="../img/symbol-defs.svg#icon-icon-Vector"></use>
         </svg>
@@ -60,7 +60,7 @@
         </div>
         <div class="form-field">
             <label class="form-label" for="tel">Phone number</label>
-            <input class="form-input" type="tel" name="tel" id="tel" placeholder="Phone number" />
+            <input class="form-input" type="tel" value="+380" name="tel" id="tel" placeholder="Phone number" />
            
           </div>
           <div class="form-field">
@@ -80,8 +80,10 @@
         </div>
 
       
-        <button type="submit" class="button">Submit</button>
+        <button type="submit" class="button ">Submit</button>
       </form>
     </div>
   </div>
+  <script src="../js/modal.js"></script>
+    <script defer src="../js/menu.js"></script>
 

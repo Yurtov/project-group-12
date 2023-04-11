@@ -26,6 +26,7 @@ padding-left: 24px;
 padding-bottom: 32px;
 }
 .modal-button{
+    cursor: pointer;
     position: absolute;
     top: 14px;
     right: 14px;
@@ -36,9 +37,16 @@ padding-bottom: 32px;
    justify-content: center;
     align-items: center;
     border: none;
-    background: #FAFAFA;
+    background: var(--white);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-    
+   .modal-button:hover,
+   .modal-button:focus{
+    color: var(--accent-color);
+    background-color: #FCF1E0;
+}
+   
 
 .modal-icon{
     fill:currentColor;
@@ -70,7 +78,7 @@ margin-bottom: 32px;
     width: 100%;
     max-width: 513px;
 height: 85px;
-background: #FFFFFF;
+background: var(--white);
 border: 1px solid rgba(17, 17, 17, 0.1);
 border-radius: 15px;
 text-decoration: none;
@@ -91,7 +99,7 @@ align-items: center;
 }
 
 .item-button{
-   
+   cursor: pointer;
     margin-left: auto;
     margin-right: 0;
     padding: 6px 16px;
@@ -102,10 +110,18 @@ height: 29px;
 font-weight: 600;
 font-size: 14px;
 line-height: 1.21;
-background: #FAFAFA;
+background: var(--white);
 border: 1px solid rgba(17, 17, 17, 0.1);
 border-radius: 100px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+
+}
+.item-button:hover,
+.item-button:focus{
+    color: var(--accent-color);
+    background-color: #FCF1E0;
 }
 .form{
     display: flex;
@@ -170,19 +186,29 @@ font-size: 14px;
 line-height: 1.21;
 }
 .button{
+    cursor: pointer;
     padding: 12px 28px;
 gap: 14px;
 font-weight: 600;
 font-size: 14px;
 line-height: 1.21;
 
-color: #FFFFFF;
+color: var(--white-text);
 width: 109px;
 height: 41px;
 
 border: none;
 background: var(--accent-color);
 border-radius: 100px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+.button:hover,
+.button:focus{
+    color: var(--accent-color);
+    background-color: #FCF1E0;
 }
 .card{
     position: absolute;
