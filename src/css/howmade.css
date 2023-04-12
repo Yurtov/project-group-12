@@ -2,16 +2,13 @@
   padding-bottom: 36px;
   padding-top: 36px;
 }
-.container {
-  padding: 72px 0;
-  margin: 0 auto;
-}
 .howmade-title {
-  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
   margin-bottom: 32px;
 }
 .howmade-span {
@@ -21,7 +18,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
   justify-content: center;
 }
 .howmade-iframe {
@@ -33,29 +29,21 @@
 .howmade-container-list {
   background: #ffffff;
   border-radius: 15px;
-  padding: 40px 14px;
+  padding: 20px 14px;
 }
 .howmade-list {
 }
 .howmade-list-title {
-  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
-  color: var(--black);
   margin-bottom: 20px;
   max-width: 310px;
 }
 .howmade-list-item {
-  font-family: 'Montserrat';
-  font-weight: 400;
   position: relative;
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
   max-width: 320px;
   padding-left: 5px;
-  color: var(--black);
   margin-bottom: 18px;
 }
 .howmade-list-item:last-child {
@@ -73,28 +61,14 @@
   border-radius: 50%;
   border: 1px solid #eceded;
 }
-@media screen and (min-width: 375px) {
-  .howmmade-section {
-    padding-bottom: 36px;
-    padding-top: 36px;
-  }
-  .howmade-iframe {
-    width: 100%;
-    height: 500px;
-    margin-bottom: 20px;
-  }
-}
+
 @media screen and (min-width: 768px) {
-  .container {
-    padding: 100px 0;
-  }
   .howmmade-section {
     padding-bottom: 50px;
     padding-top: 50px;
   }
   .howmade-container-list {
-    border-radius: 15px;
-    padding: 32px 114px 32px 32px;
+    padding: 32px;
     min-width: 614px;
   }
   .howmade-title {
@@ -111,27 +85,23 @@
   }
   .howmade-iframe {
     width: 614px;
-
     height: 400px;
     margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .container {
-    padding: 128px 0;
-    gap: 20px;
-  }
   .howmade-container-list {
     padding: 32px;
     height: 400px;
     min-width: 0;
   }
-  .howmade-container {
-    flex-wrap: nowrap;
-  }
   .howmmade-section {
     padding-bottom: 64px;
     padding-top: 64px;
+  }
+  .howmade-content {
+    display: flex;
+    gap: 20px;
   }
   .howmade-list-item {
     margin-bottom: 24px;

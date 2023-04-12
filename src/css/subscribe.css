@@ -106,10 +106,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  /* .container {
-    max-width: 1200px;
-  } */
-
   .subscribe-section {
     background-image: url(/img/subscribe/subcribe-desktop.jpg);
   }
