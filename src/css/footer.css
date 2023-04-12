@@ -108,9 +108,11 @@ footer {
     display: flex;
     justify-content: space-between;
   }
+
   .footer-addres {
-    margin-right: 63px;
+    margin-right: 52px;
   }
+
   .footer-list-nav li {
     display: inline;
     margin-right: 24px;
@@ -118,5 +120,11 @@ footer {
 
   .footer-list-nav li:last-child {
     margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-addres {
+    margin-right: 65px;
   }
 }
