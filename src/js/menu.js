@@ -27,7 +27,7 @@
   });
 
   var burgerMenu = document.getElementById('menu');
-  var overlay = document.getElementById('header-link');
+  var overlay = document.getElementById('header-list');
   function close() {
   burgerMenu.classList.toggle("close");
     overlay.classList.toggle("overlay");
