@@ -15,6 +15,7 @@ footer {
   margin-bottom: 32px;
   max-width: 300px;
 }
+
 .desc-footer {
   color: #fff;
   font-style: normal;
@@ -53,6 +54,7 @@ footer {
 .footer-list-nav li {
   margin-bottom: 18px;
 }
+
 .footer-list-nav li:last-child {
   margin-bottom: 0;
 }
@@ -69,10 +71,12 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.footer-list-icon li {
+
+.footer-social-item {
   display: inline;
 }
-.footer-list-icon li:first-child {
+
+.footer-social-item:first-child {
   margin-right: 14px;
 }
 
