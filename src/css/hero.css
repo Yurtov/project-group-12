@@ -38,7 +38,7 @@
   line-height: 1.2;
   letter-spacing: -0.03em;
   color: var(--white-text);
-  width: 290px;
+  max-width: 290px;
   margin-bottom: 32px;
 }
 
@@ -54,7 +54,7 @@
   font-size: 14px;
   line-height: 17px;
   color: var(--white-text);
-  padding: 12px 28px;
+  padding: 12px 20px;
   border-radius: 100px;
   cursor: pointer;
 }
@@ -137,6 +137,13 @@
         rgba(17, 17, 17, 0.4) 100%
       ),
       url(/img/hero/hero-bg-chocolate-mobile@2x.jpg);
+  }
+}
+
+
+@media screen and (min-width: 375px) {
+  .btn-hero {
+    padding: 12px 28px;
   }
 }
 

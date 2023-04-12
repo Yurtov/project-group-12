@@ -23,9 +23,11 @@ footer {
   line-height: 1.28;
   margin-bottom: 14px;
 }
+
 .title-footer span {
   color: var(--accent-color);
 }
+
 .footer-list-addres {
   color: #fff;
   font-style: normal;
@@ -33,9 +35,11 @@ footer {
   font-size: 14px;
   line-height: 1.28;
 }
+
 .footer-list-addres li:first-child {
   margin-bottom: 8px;
 }
+
 .footer-list-addres-item:is(:hover, :focus) {
   color: var(--accent-color);
 }
@@ -76,15 +80,19 @@ footer {
   color: var(--accent-color);
 }
 
+.footer-social-item {
+  color: var(--white);
+}
+
 .icon-footer {
-  stroke: white;
+  stroke:currentColor;
   height: 22px;
   width: 22px;
   display: inline-block;
 }
-.icon-footer:hover,
-.icon-footer:focus {
-  stroke: var(--accent-color);
+
+.footer-social-link:is(:hover, :focus) {
+  color: var(--accent-color);
 }
 
 @media screen and (min-width: 768px) {

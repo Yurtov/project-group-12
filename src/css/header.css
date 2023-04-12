@@ -53,7 +53,7 @@
 }
 
 .menu {
-  height: 100vh;
+  height: 100%;
   width: 220px;
   position: fixed;
   z-index: 999;
@@ -120,6 +120,7 @@
 .header-social-list {
   display: flex;
   gap: 18px;
+  color: var(--white);
 }
 
 .header-social-link {
@@ -127,18 +128,14 @@
 }
 
 .header-social-link:is(:hover, :focus) {
-  stroke: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .header-social-icon {
   width: 22px;
   height: 22px;
-  stroke: var(--white);
+  stroke: currentColor;
 }
-
-/* .header-social-icon:is(:hover, :focus) {
-  stroke: var(--accent-color);
-} */
 
 .menu-desktop {
   display: none;
@@ -248,17 +245,13 @@
   .header-social-item-desktop {
     padding-top: 28px;
     padding-bottom: 36px;
-    /* color: var(--black); */
+    color: var(--black);
   }
 
   .header-social-icon-desktop {
     width: 24px;
     height: 24px;
-    stroke: var(--black);
+    stroke: currentColor;
     fill: transparent;
   }
-
-  /* .header-social-icon-desktop:is(:hover, :focus) {
-    stroke: var(--accent-color);
-  } */
 }
