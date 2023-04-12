@@ -89,7 +89,8 @@ footer {
 }
 
 .icon-footer {
-  stroke:currentColor;
+  stroke: currentColor;
+  fill: transparent;
   height: 22px;
   width: 22px;
   display: inline-block;
