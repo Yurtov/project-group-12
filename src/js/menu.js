@@ -26,16 +26,10 @@
     bodyScrollLock.enableBodyScroll(document.body);
   });
 
-  var burgerMenu = document.getElementById('menu');
-  var overlay = document.getElementById('header-list');
-  function close() {
-  burgerMenu.classList.toggle("close");
-    overlay.classList.toggle("overlay");
-  }
-  burgerMenu.addEventListener('click', close);
-  
-  overlay.addEventListener('click', function (event) {
-  if(event.target.tagName === "A") close();
-  })
-  
+  const menuLinks = document.querySelectorAll(".header-link");
+
+  menuLinks.forEach((link) => {
+    link.addEventListener("click", toggleMenu);
+  });
+
 })();

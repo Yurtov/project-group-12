@@ -99,10 +99,6 @@
   margin-top: 20px;
 }
 
-.reviews-item-d {
-  display: none;
-}
-
 @media screen and (min-width: 375px) {
 }
 
@@ -135,9 +131,6 @@
   .reviews-swiper-pagination {
     margin-top: 32px;
   }
-  .reviews-item-t {
-    display: block;
-  }
 }
 
 /*-----desktop-----*/
@@ -155,9 +148,5 @@
     padding-top: 56px;
     padding-right: 24px;
     padding-left: 24px;
-  }
-
-  .reviews-item-d {
-    display: block;
   }
 }
