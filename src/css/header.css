@@ -21,6 +21,7 @@
   line-height: 1.29;
   letter-spacing: -0.03em;
   color: var(--black);
+  max-width: 169px;
 }
 
 .header-logo span {
@@ -203,6 +204,7 @@
     margin-right: auto;
     font-size: 18px;
     line-height: 20px;
+    min-width: 213px;
   }
 
   .header-logo-icon {
